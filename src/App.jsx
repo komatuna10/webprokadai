@@ -24,7 +24,7 @@ const App = () => {
   const startGame = () => {
     setGameActive(true);
     setCount(0);
-    setTimeLeft(10);
+    setTimeLeft(20);
     setCatImage(null);
   };
 
