@@ -47,7 +47,7 @@ const App = () => {
 
   return (
     <div>
-      <h1>Click Game</h1>
+      <h1>5423002　関口馨　日本大学文理学部情報科学科 Webプログラミングの演習課題</h1>
       <p>Startボタンを押してボタンをクリックしてください</p>
       <button onClick={startGame}>Start</button>
 
