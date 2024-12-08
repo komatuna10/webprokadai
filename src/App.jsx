@@ -24,7 +24,7 @@ const App = () => {
   const startGame = () => {
     setGameActive(true);
     setCount(0);
-    setTimeLeft(20);
+    setTimeLeft(10);
     setCatImage(null);
   };
 
@@ -50,8 +50,8 @@ const App = () => {
       <h1>Click Game</h1>
       <p>Startボタンを押してボタンをクリックしてください</p>
       <button onClick={startGame}>Start</button>
-      
-      <button onClick={handleClick}>Click!!</button>
+
+      <p><button onClick={handleClick}>Click!!</button></p>
       <p>Count: {count}</p>
       <p>Time Left: {timeLeft}</p>
       
