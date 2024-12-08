@@ -48,11 +48,13 @@ const App = () => {
   return (
     <div>
       <h1>Click Game</h1>
-      <p>Click the button as many times as you can!</p>
-      <button onClick={handleClick}>Click me!</button>
+      <p>Startボタンを押してボタンをクリックしてください</p>
+      <button onClick={startGame}>Start</button>
+      
+      <button onClick={handleClick}>Click!!</button>
       <p>Count: {count}</p>
       <p>Time Left: {timeLeft}</p>
-      <button onClick={startGame}>Start Game</button>
+      
 
       {timeLeft === 0 && catImage && (
         <div>
